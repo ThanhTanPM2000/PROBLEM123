@@ -57,8 +57,7 @@ namespace Exercise06
             }
         }
         public void DepositUser()
-        {
-            
+        {          
             Console.WriteLine("xin mời nhập khoảng tiền :     (Ấn Q để quay trở lại menu)");
             String ADDuser = Console.ReadLine();
             int a = 0;
@@ -87,6 +86,7 @@ namespace Exercise06
                 +"2. Deposit"
                 +Environment.NewLine
                 +"3. Balance");
+            Console.Write("Nhập: ");
             string usercomand = Console.ReadLine();
             Console.Clear();
             int a = 0;
